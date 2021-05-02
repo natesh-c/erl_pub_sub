@@ -1,0 +1,16 @@
+{application, erl_pub_sub,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {mod, {erl_pub_sub_app, []}},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
